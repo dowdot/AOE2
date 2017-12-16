@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,31 +14,26 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController title="遊戲簡介" id="BYZ-38-t0r" customClass="ViewController" customModule="AOE" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOd-NE-vLG">
-                                <rect key="frame" x="30" y="94" width="323" height="417"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="323" id="8H3-SN-PZF"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="524" id="VBX-p8-TA6"/>
-                                    <constraint firstAttribute="height" constant="417" id="u6v-Ud-Qzk"/>
-                                </constraints>
-                                <mutableString key="text">世紀帝國（英語：Age of Empires）系列是歷史即時戰略遊戲。  《世紀帝國II：帝王世紀》（英語：Age of Empires II: The Age of Kings，中國大陸譯作「帝國時代II：國王時代」，簡稱《世紀II》，縮寫：AOE2、AoK）是一款由全效工作室開發、微軟於1999年發行的即時戰略遊戲，最初支援的平台包括Microsoft Windows及Mac OS作業系統，它是世紀帝國系列的第二代遊戲產品。2000年，微軟發布《帝王世紀》的資料片《世紀帝國II：征服者入侵》。2001年，科樂美發布該遊戲的PlayStation 2版本和任天堂DS衍生版本。 
-《世紀帝國II：帝王世紀》的遊戲背景設置於中世紀，玩家能夠從13種不同的文明當中選出其中1種進行遊戲，這些文明包括不列顛、拜占庭、賽爾特、哥特、條頓、法蘭克、蒙古、中國、日本、波斯、阿拉伯、土耳其和維京。玩家經過收集資源，利用資源來修建自己的城鎮，建立軍隊，然後試圖消滅敵人。  遊戲設置5個基於真實歷史的戰役模式，玩家必須按照遊戲指示完成特定的目標。單人模式則分為3種，此外遊戲支援在區域網路、網際網路上進行多人遊戲。</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wqp-aO-y1r">
+                                <rect key="frame" x="30" y="94" width="323" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOd-NE-vLG">
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="537"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">世紀帝國（英語：Age of Empires）系列是歷史即時戰略遊戲。  《世紀帝國II：帝王世紀》（英語：Age of Empires II: The Age of Kings，中國大陸譯作「帝國時代II：國王時代」，簡稱《世紀II》，縮寫：AOE2、AoK）是一款由全效工作室開發、微軟於1999年發行的即時戰略遊戲，最初支援的平台包括Microsoft Windows及Mac OS作業系統，它是世紀帝國系列的第二代遊戲產品。2000年，微軟發布《帝王世紀》的資料片《世紀帝國II：征服者入侵》。2001年，科樂美發布該遊戲的PlayStation 2版本和任天堂DS衍生版本。 
+《世紀帝國II：帝王世紀》的遊戲背景設置於中世紀，玩家能夠從13種不同的文明當中選出其中1種進行遊戲，這些文明包括不列顛、拜占庭、賽爾特、哥特、條頓、法蘭克、蒙古、中國、日本、波斯、阿拉伯、土耳其和維京。玩家經過收集資源，利用資源來修建自己的城鎮，建立軍隊，然後試圖消滅敵人。  遊戲設置5個基於真實歷史的戰役模式，玩家必須按照遊戲指示完成特定的目標。單人模式則分為3種，此外遊戲支援在區域網路、網際網路上進行多人遊戲。</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="XOd-NE-vLG" secondAttribute="trailing" id="77v-U7-ESi"/>
-                            <constraint firstItem="XOd-NE-vLG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Kmm-UF-3F5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XOd-NE-vLG" secondAttribute="trailing" constant="30" id="d5R-a3-ckg"/>
-                            <constraint firstItem="XOd-NE-vLG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="xKv-Cz-uUP"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="遊戲簡介" id="4hg-KR-lAK"/>
@@ -49,23 +43,7 @@
             </objects>
             <point key="canvasLocation" x="-1578.4000000000001" y="850.52473763118451"/>
         </scene>
-        <!--資料片-->
-        <scene sceneID="92y-ri-KPh">
-            <objects>
-                <viewController id="SfS-s4-VAj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vaf-np-iW8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="xsE-sA-fdS"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="資料片" id="jfL-L0-NUr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NG6-vY-cvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="31.199999999999999" y="852.3238380809596"/>
-        </scene>
-        <!--秘技-->
+        <!--攻略-->
         <scene sceneID="B7r-5G-vbf">
             <objects>
                 <viewController id="Sm1-Ls-rBT" sceneMemberID="viewController">
@@ -75,7 +53,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="e45-TG-OK9"/>
                     </view>
-                    <navigationItem key="navigationItem" title="秘技" id="lsN-Cu-Kit"/>
+                    <navigationItem key="navigationItem" title="攻略" id="lsN-Cu-Kit"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qd2-Vy-n25" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,18 +127,263 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="SfS-s4-VAj" kind="relationship" relationship="rootViewController" id="emw-Me-fpc"/>
+                        <segue destination="8Gu-Ow-oui" kind="relationship" relationship="rootViewController" id="ncN-Ud-Ky8"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sxo-23-uLF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-620" y="847"/>
+            <point key="canvasLocation" x="-631" y="917"/>
         </scene>
-        <!--密技-->
+        <!--資料片-->
+        <scene sceneID="EUy-Er-hVx">
+            <objects>
+                <tableViewController id="8Gu-Ow-oui" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zVe-k1-ZYa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="ifc-Ec-hkn">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="F8u-fN-raH">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F8u-fN-raH" id="gHR-lX-Ne4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="144.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1_The Age of Kings" translatesAutoresizingMaskIntoConstraints="NO" id="y9j-Q4-Bam">
+                                                    <rect key="frame" x="20" y="4" width="97" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：1999年9月30日 引擎： Genie 文明數：13 " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJp-bZ-tEj">
+                                                    <rect key="frame" x="143" y="61" width="219" height="78"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="帝王世紀 " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W0t-sQ-aVA">
+                                                    <rect key="frame" x="131" y="11" width="223" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Age of Kings" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tQp-dC-OLD">
+                                                    <rect key="frame" x="131" y="31" width="207" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwc-8y-7aS">
+                                                    <rect key="frame" x="292" y="100" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="150" id="s9Z-g7-xHE">
+                                        <rect key="frame" x="0.0" y="145" width="375" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s9Z-g7-xHE" id="3Vi-lC-cyG">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2_The Conquerors" translatesAutoresizingMaskIntoConstraints="NO" id="Jh8-Cw-QSq">
+                                                    <rect key="frame" x="19" y="12" width="96" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：2000年8月24日 新增文明：西班牙、阿茲特克、馬雅、匈奴、韓國 " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4t-gV-7Yk">
+                                                    <rect key="frame" x="140" y="56" width="219" height="83"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="征服者入侵" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UFr-u1-WuA">
+                                                    <rect key="frame" x="136" y="11" width="244" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Conquerors" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XQx-uw-bim">
+                                                    <rect key="frame" x="135" y="31" width="149" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUf-EO-R1t">
+                                                    <rect key="frame" x="287" y="109" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="Llz-Ad-gct">
+                                        <rect key="frame" x="0.0" y="295" width="375" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Llz-Ad-gct" id="kP4-th-jsW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3_The Forgotten" translatesAutoresizingMaskIntoConstraints="NO" id="1b5-2l-d4s">
+                                                    <rect key="frame" x="19" y="16" width="143" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="失落的帝國" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Z2-sF-5Oy">
+                                                    <rect key="frame" x="176" y="0.0" width="244" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：2013年11月7日 新增文明：印度、義大利、印加、馬札爾、斯拉夫 " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTy-fL-w0w">
+                                                    <rect key="frame" x="186" y="48" width="189" height="83"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Forgotten" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VFG-uv-7XY">
+                                                    <rect key="frame" x="176" y="21" width="169" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PD-Ee-b3T">
+                                                    <rect key="frame" x="287" y="105" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="147" id="QK5-oH-Xhm">
+                                        <rect key="frame" x="0.0" y="435" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QK5-oH-Xhm" id="hgZ-Un-XYW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4_age-african-kingdoms" translatesAutoresizingMaskIntoConstraints="NO" id="Pp8-TT-y0t">
+                                                    <rect key="frame" x="19" y="23" width="142" height="106"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wa-DB-UUK">
+                                                    <rect key="frame" x="287" y="110" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                </button>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="非洲王國" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jac-U5-RfG">
+                                                    <rect key="frame" x="178" y="11" width="244" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：2015年11月5日 新增文明：柏柏爾、馬里、衣索比亞、葡萄牙 " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Nx-pL-PCR">
+                                                    <rect key="frame" x="187" y="59" width="189" height="83"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The African Kingdoms" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fFa-qJ-Gh1">
+                                                    <rect key="frame" x="178" y="32" width="193" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="135" id="yRp-oV-HXY">
+                                        <rect key="frame" x="0.0" y="582" width="375" height="135"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yRp-oV-HXY" id="PHO-Ao-QvA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="134.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.Rise of the Rajas" translatesAutoresizingMaskIntoConstraints="NO" id="Noh-Wi-1Ot">
+                                                    <rect key="frame" x="19" y="21" width="141" height="96"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4Z-nu-GnF">
+                                                    <rect key="frame" x="287" y="94" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                </button>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：2016年12月9日 新增文明：馬來、高棉、緬甸、越南" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxC-Yn-UCU">
+                                                    <rect key="frame" x="177" y="49" width="189" height="83"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="拉惹崛起" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-he-ALK">
+                                                    <rect key="frame" x="175" y="3" width="244" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rise of the Rajas" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0aZ-q6-uac">
+                                                    <rect key="frame" x="175" y="24" width="193" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="8Gu-Ow-oui" id="pgW-Bj-DsN"/>
+                            <outlet property="delegate" destination="8Gu-Ow-oui" id="CYE-ia-zcQ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="資料片" id="krv-hz-Dks"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YtJ-SF-Gyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109.59999999999999" y="920.68965517241384"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F3G-0j-taa">
+            <objects>
+                <viewController id="nsC-Lf-zad" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="97S-bm-nIY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="a4R-WL-HUw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KcG-EJ-iXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449" y="1693"/>
+        </scene>
+        <!--攻略-->
         <scene sceneID="KsU-3H-l8J">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ke9-Ve-hGU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="密技" id="aFi-hj-yF7" userLabel="密技"/>
+                    <tabBarItem key="tabBarItem" title="攻略" id="aFi-hj-yF7" userLabel="密技"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hZR-Zf-z98">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -195,4 +418,11 @@
             <point key="canvasLocation" x="2136" y="846.47676161919048"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1_The Age of Kings" width="1529" height="2156"/>
+        <image name="2_The Conquerors" width="1028" height="1024"/>
+        <image name="3_The Forgotten" width="1200" height="675"/>
+        <image name="4_age-african-kingdoms" width="1200" height="675"/>
+        <image name="5.Rise of the Rajas" width="1024" height="576"/>
+    </resources>
 </document>
