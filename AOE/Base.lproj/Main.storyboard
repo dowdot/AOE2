@@ -18,20 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wqp-aO-y1r">
-                                <rect key="frame" x="30" y="94" width="323" height="537"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.Rise of the Rajas" translatesAutoresizingMaskIntoConstraints="NO" id="gjz-bF-Fjl">
+                                <rect key="frame" x="52" y="79" width="271" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOd-NE-vLG">
-                                        <rect key="frame" x="0.0" y="0.0" width="323" height="537"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">世紀帝國（英語：Age of Empires）系列是歷史即時戰略遊戲。  《世紀帝國II：帝王世紀》（英語：Age of Empires II: The Age of Kings，中國大陸譯作「帝國時代II：國王時代」，簡稱《世紀II》，縮寫：AOE2、AoK）是一款由全效工作室開發、微軟於1999年發行的即時戰略遊戲，最初支援的平台包括Microsoft Windows及Mac OS作業系統，它是世紀帝國系列的第二代遊戲產品。2000年，微軟發布《帝王世紀》的資料片《世紀帝國II：征服者入侵》。2001年，科樂美發布該遊戲的PlayStation 2版本和任天堂DS衍生版本。 
-《世紀帝國II：帝王世紀》的遊戲背景設置於中世紀，玩家能夠從13種不同的文明當中選出其中1種進行遊戲，這些文明包括不列顛、拜占庭、賽爾特、哥特、條頓、法蘭克、蒙古、中國、日本、波斯、阿拉伯、土耳其和維京。玩家經過收集資源，利用資源來修建自己的城鎮，建立軍隊，然後試圖消滅敵人。  遊戲設置5個基於真實歷史的戰役模式，玩家必須按照遊戲指示完成特定的目標。單人模式則分為3種，此外遊戲支援在區域網路、網際網路上進行多人遊戲。</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                            </stackView>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etd-fh-iUm">
+                                <rect key="frame" x="16" y="234" width="343" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">世紀帝國（英語：Age of Empires）系列是歷史即時戰略遊戲。  《世紀帝國II：帝王世紀》（英語：Age of Empires II: The Age of Kings，中國大陸譯作「帝國時代II：國王時代」，簡稱《世紀II》，縮寫：AOE2、AoK）是一款由全效工作室開發、微軟於1999年發行的即時戰略遊戲，最初支援的平台包括Microsoft Windows及Mac OS作業系統，它是世紀帝國系列的第二代遊戲產品。2000年，微軟發布《帝王世紀》的資料片《世紀帝國II：征服者入侵》。2001年，科樂美發布該遊戲的PlayStation 2版本和任天堂DS衍生版本。 
+《世紀帝國II：帝王世紀》的遊戲背景設置於中世紀，玩家能夠從13種不同的文明當中選出其中1種進行遊戲，這些文明包括不列顛、拜占庭、賽爾特、哥特、條頓、法蘭克、蒙古、中國、日本、波斯、阿拉伯、土耳其和維京。玩家經過收集資源，利用資源來修建自己的城鎮，建立軍隊，然後試圖消滅敵人。  遊戲設置5個基於真實歷史的戰役模式，玩家必須按照遊戲指示完成特定的目標。單人模式則分為3種，此外遊戲支援在區域網路、網際網路上進行多人遊戲。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -41,39 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1578.4000000000001" y="850.52473763118451"/>
-        </scene>
-        <!--攻略-->
-        <scene sceneID="B7r-5G-vbf">
-            <objects>
-                <viewController id="Sm1-Ls-rBT" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zvE-en-uUN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="e45-TG-OK9"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="攻略" id="lsN-Cu-Kit"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qd2-Vy-n25" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1191" y="852"/>
-        </scene>
-        <!--好站-->
-        <scene sceneID="Yy5-CS-aHP">
-            <objects>
-                <viewController id="oC3-EX-vyU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="PHV-7D-98J">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="mvJ-Si-qKy"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="好站" id="jHA-VT-y4c"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YBe-NQ-GaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2476" y="846.9265367316342"/>
+            <point key="canvasLocation" x="-1274" y="919"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Dbl-Hg-bUX">
@@ -94,13 +61,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xj7-bg-5MF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-559" y="59"/>
+            <point key="canvasLocation" x="881" y="-144"/>
         </scene>
         <!--遊戲簡介-->
         <scene sceneID="UGu-fO-B1l">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aC9-5E-kNY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="遊戲簡介" id="c4l-Hd-UEG" userLabel="遊戲簡介"/>
+                    <tabBarItem key="tabBarItem" title="遊戲簡介" image="animal-element-7" selectedImage="animal-element-7" id="c4l-Hd-UEG" userLabel="遊戲簡介"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9s0-an-FYI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -113,13 +80,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iug-vy-o5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2330" y="852"/>
+            <point key="canvasLocation" x="-2026" y="920"/>
         </scene>
         <!--資料片-->
         <scene sceneID="F1u-vb-0wI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RHZ-4W-mf5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="資料片" id="nPT-yr-hBk" userLabel="資料片"/>
+                    <tabBarItem key="tabBarItem" title="資料片" image="layer-7" selectedImage="layer-7" id="nPT-yr-hBk" userLabel="資料片"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ice-h8-OeG">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -182,6 +149,9 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <state key="normal" title="詳細介紹"/>
+                                                    <connections>
+                                                        <segue destination="nsC-Lf-zad" kind="show" id="EbM-sf-cOw"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -223,6 +193,9 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <state key="normal" title="詳細介紹"/>
+                                                    <connections>
+                                                        <segue destination="srs-c7-aGL" kind="show" id="RvO-qr-Ee5"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -264,6 +237,9 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <state key="normal" title="詳細介紹"/>
+                                                    <connections>
+                                                        <segue destination="RSi-MS-384" kind="show" id="c0A-3v-6wf"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -279,12 +255,6 @@
                                                     <rect key="frame" x="19" y="23" width="142" height="106"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wa-DB-UUK">
-                                                    <rect key="frame" x="287" y="110" width="72" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <state key="normal" title="詳細介紹"/>
-                                                </button>
                                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="非洲王國" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jac-U5-RfG">
                                                     <rect key="frame" x="178" y="11" width="244" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -293,7 +263,7 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：2015年11月5日 新增文明：柏柏爾、馬里、衣索比亞、葡萄牙 " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Nx-pL-PCR">
-                                                    <rect key="frame" x="187" y="59" width="189" height="83"/>
+                                                    <rect key="frame" x="187" y="59" width="189" height="62"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -306,6 +276,15 @@
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wa-DB-UUK">
+                                                    <rect key="frame" x="287" y="116" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                    <connections>
+                                                        <segue destination="ja2-Iz-5RI" kind="show" id="HL7-DU-2i5"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -320,14 +299,8 @@
                                                     <rect key="frame" x="19" y="21" width="141" height="96"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4Z-nu-GnF">
-                                                    <rect key="frame" x="287" y="94" width="72" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <state key="normal" title="詳細介紹"/>
-                                                </button>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="發行日：2016年12月9日 新增文明：馬來、高棉、緬甸、越南" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxC-Yn-UCU">
-                                                    <rect key="frame" x="177" y="49" width="189" height="83"/>
+                                                    <rect key="frame" x="177" y="49" width="189" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -347,6 +320,15 @@
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4Z-nu-GnF">
+                                                    <rect key="frame" x="287" y="104" width="72" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="詳細介紹"/>
+                                                    <connections>
+                                                        <segue destination="m1Q-QQ-Ipx" kind="show" id="8SD-7q-EKa"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -364,26 +346,165 @@
             </objects>
             <point key="canvasLocation" x="109.59999999999999" y="920.68965517241384"/>
         </scene>
-        <!--View Controller-->
+        <!--帝王世紀-->
         <scene sceneID="F3G-0j-taa">
             <objects>
                 <viewController id="nsC-Lf-zad" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="97S-bm-nIY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1_The Age of Kings" translatesAutoresizingMaskIntoConstraints="NO" id="k0H-e2-HDk">
+                                <rect key="frame" x="131" y="94" width="132" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEN-Rt-RKR">
+                                <rect key="frame" x="23" y="309" width="336" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80214942893401009" green="0.72615004346194645" blue="0.50810865650671055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">《世紀帝國II：帝王世紀》（英語：Age of Empires II: The Age of Kings，中國大陸譯作「帝國時代II：國王時代」，簡稱《世紀II》，縮寫：AOE2、AoK）是一款由全效工作室開發、微軟於1999年發行的即時戰略遊戲，最初支援的平台包括Microsoft Windows及Mac OS作業系統，它是世紀帝國系列的第二代遊戲產品。2000年，微軟發布《帝王世紀》的資料片《世紀帝國II：征服者入侵》。2001年，科樂美發布該遊戲的PlayStation 2版本和任天堂DS衍生版本。 
+《世紀帝國II：帝王世紀》的遊戲背景設置於中世紀，玩家能夠從13種不同的文明當中選出其中1種進行遊戲，這些文明包括不列顛、拜占庭、賽爾特、哥特、條頓、法蘭克、蒙古、中國、日本、波斯、阿拉伯、土耳其和維京。玩家經過收集資源，利用資源來修建自己的城鎮，建立軍隊，然後試圖消滅敵人。遊戲設置5個基於真實歷史的戰役模式，玩家必須按照遊戲指示完成特定的目標。單人模式則分為3種，此外遊戲支援在區域網路、網際網路上進行多人遊戲。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58369685913705582" green="0.44855802193923183" blue="0.21948838729076911" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="a4R-WL-HUw"/>
                     </view>
+                    <navigationItem key="navigationItem" title="帝王世紀" id="mOj-i1-FkO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KcG-EJ-iXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-449" y="1693"/>
+            <point key="canvasLocation" x="-1801" y="1834"/>
+        </scene>
+        <!--征服者入侵-->
+        <scene sceneID="SVA-7E-in7">
+            <objects>
+                <viewController id="srs-c7-aGL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1K-eE-L78">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2_The Conquerors" translatesAutoresizingMaskIntoConstraints="NO" id="h7W-wk-JId">
+                                <rect key="frame" x="121" y="91" width="132" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfA-cE-EiS">
+                                <rect key="frame" x="23" y="294" width="336" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67750563540651421" green="0.80214942889999996" blue="0.64765189073799867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">《世紀帝國II：征服者入侵》（英語：Age of Empires II: The Conquerors，中國大陸譯作「帝國時代II：征服者」）是微軟即時戰略遊戲《世紀帝國II：帝王世紀》的官方擴充資料片，曾榮獲2000年E3最佳戰略性遊戲資料片。
+征服者入侵除了《世紀帝國II：帝王世紀》的原有文明，再行引入5種新文明及相關戰役，其中2種代表新大陸：阿茲特克和瑪雅，另3種分別為匈奴、西班牙和韓國；另有一戰役系列是互不相干的獨立戰役。此外標準遊戲模式即新增世界奇觀競賽、防禦世界奇觀和至尊王3種，並新增19張地圖（9張隨機和10張仿自真實世界據點）、11種軍事單位和26種科技。該資料片推出後，曾發布官方唯一和最終版本的1.0c修正檔。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42269885955103875" green="0.58369685913705582" blue="0.40037665952678242" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="uBV-FV-zwF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="征服者入侵" id="6Zn-Rq-7Gl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CgL-aL-jJK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1129" y="1836"/>
+        </scene>
+        <!--失落的帝國-->
+        <scene sceneID="E1t-3k-Dg9">
+            <objects>
+                <viewController id="RSi-MS-384" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MI2-YU-Pzc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3_The Forgotten" translatesAutoresizingMaskIntoConstraints="NO" id="Hd4-RD-eUx">
+                                <rect key="frame" x="16" y="82" width="343" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTU-ke-O1P">
+                                <rect key="frame" x="16" y="285" width="343" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.64333459344211286" green="0.68426215247271249" blue="0.80214942889999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">《世紀帝國II：失落的帝國》（英語：Age of Empires II: The Forgotten，中國大陸譯作「帝國時代II：被遺忘的帝國」）是1999年即時戰略遊戲《世紀帝國II：帝王世紀》的第二個擴充資料片，距第一個擴充資料片《世紀帝國II：征服者入侵》已超過十年[2]。此資料片由非官方模組《Forgotten Empires》發展而來。[3]。現由「Forgotten Empires」團隊持續開發，溫哥華的Skybox Labs提供支援。《失落的帝國》中引入五個新文明，分別為：義大利人、印度人、斯拉夫人、馬札爾人、印加人、七場新戰役、新單位、新科技、新遊戲模式及新地圖，並改善了人工智慧和遊戲細節。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4476079032132505" green="0.46721216736352783" blue="0.67506741751269028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bmg-uc-TxY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="失落的帝國" id="3QP-jG-tRJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xll-jB-0P8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449" y="1836"/>
+        </scene>
+        <!--非洲帝國-->
+        <scene sceneID="LxC-V4-FkN">
+            <objects>
+                <viewController id="ja2-Iz-5RI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S6y-q8-b40">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4_age-african-kingdoms" translatesAutoresizingMaskIntoConstraints="NO" id="Zvn-Ti-Vga">
+                                <rect key="frame" x="16" y="93" width="343" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcF-6i-pbw">
+                                <rect key="frame" x="16" y="296" width="343" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80214942889999996" green="0.66635137870000005" blue="0.71485017740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">《世紀帝國II：非洲王國》（英語：Age of Empires II: The African Kingdoms，中國大陸譯作「帝國時代II：非洲王國」）是1999年即時戰略遊戲《世紀帝國II：帝王世紀》的第三個擴充資料片，僅限於Steam平台的HD版本。[1]本資料片新增了三個非洲文明與非洲的建築風格。也新增了一個歐洲文明。遊戲中也增加了一些新單位、建築和物件。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67506741751269028" green="0.35696094780755833" blue="0.51552205672213525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7Fb-7g-eZK"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="非洲帝國" id="ojw-67-Oxh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yei-0p-s7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="1836"/>
+        </scene>
+        <!--拉惹崛起-->
+        <scene sceneID="r02-P6-r9H">
+            <objects>
+                <viewController id="m1Q-QQ-Ipx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gkY-8U-J2i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.Rise of the Rajas" translatesAutoresizingMaskIntoConstraints="NO" id="eZ3-Ui-jVe">
+                                <rect key="frame" x="16" y="97" width="343" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPs-3a-0bd">
+                                <rect key="frame" x="16" y="300" width="343" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80214942889999996" green="0.73224401088732527" blue="0.6463848773042562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">《世紀帝國II：拉者崛起》（英語：Age of Empires II: Rise of the Rajas，中國大陸譯作「帝國時代II：蠻王崛起」，又譯作「拉惹崛起」、「王侯崛起」、「蠻王崛起」、「阿爾傑斯的崛起」）是1999年即時戰略遊戲《世紀帝國II：帝王世紀》的第四個擴充資料片，僅限於Steam平台的HD版本。本資料片新增了四個東南亞文明且更新了印度種族的建築風格，遊戲中也增加了一些新單位、建築和物件。
+拉者為南亞、東南亞以及印度等地對國王、君主或酋長的稱呼，又譯作拉惹。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67506741751269028" green="0.56722702105562506" blue="0.41814300545765259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="JMg-Et-i9v"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="拉惹崛起" id="pKg-nk-VXa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9vx-EL-UYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="1834"/>
         </scene>
         <!--攻略-->
         <scene sceneID="KsU-3H-l8J">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ke9-Ve-hGU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="攻略" id="aFi-hj-yF7" userLabel="密技"/>
+                    <tabBarItem key="tabBarItem" title="攻略" image="lifebuoy-7" selectedImage="lifebuoy-7" id="aFi-hj-yF7" userLabel="密技"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hZR-Zf-z98">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -391,18 +512,123 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Sm1-Ls-rBT" kind="relationship" relationship="rootViewController" id="oFz-9Q-z4c"/>
+                        <segue destination="wDK-bw-hgv" kind="relationship" relationship="rootViewController" id="jJU-v9-Urv"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfF-0u-62h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="814" y="852"/>
+            <point key="canvasLocation" x="1919" y="933"/>
+        </scene>
+        <!--攻略-->
+        <scene sceneID="vJO-dL-uIi">
+            <objects>
+                <tableViewController title="攻略" id="wDK-bw-hgv" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3Yy-oF-S7s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="47E-d2-JpP">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8UL-4B-Kcp">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8UL-4B-Kcp" id="ucS-8n-Q26">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLQ-QH-XOd">
+                                                    <rect key="frame" x="16" y="3" width="275" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                    <state key="normal" title="正確的僧侶補血"/>
+                                                    <connections>
+                                                        <segue destination="U3R-mM-Oe8" kind="show" id="LPn-AZ-OS2"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="434" id="l6U-Zj-p9h">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="434"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l6U-Zj-p9h" id="BeR-Aa-9tK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="433.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="各民族使用心得" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wwb-xm-fTU">
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-yI-mzA">
+                                                    <rect key="frame" x="41" y="42" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <state key="normal" title="韓國"/>
+                                                    <connections>
+                                                        <segue destination="Ohj-S7-Ke3" kind="show" id="bBE-fx-OmL"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h4-n2-cte">
+                                                    <rect key="frame" x="40" y="69" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <state key="normal" title="日本"/>
+                                                    <connections>
+                                                        <segue destination="2mI-7c-X75" kind="show" id="8xp-6m-O0G"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hU-bP-h3w">
+                                                    <rect key="frame" x="39" y="99" width="79" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <state key="normal" title="阿茲特克"/>
+                                                    <connections>
+                                                        <segue destination="BKE-Zp-4wI" kind="show" id="6t3-wT-F7j"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmD-Ki-sfd">
+                                                    <rect key="frame" x="39" y="128" width="79" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <state key="normal" title="條頓"/>
+                                                    <connections>
+                                                        <segue destination="2rV-Ec-Kyu" kind="show" id="CW3-iv-wBc"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="78" id="pOy-jC-lCW">
+                                        <rect key="frame" x="0.0" y="478" width="375" height="78"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pOy-jC-lCW" id="0a2-OZ-0Bh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="77.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="wDK-bw-hgv" id="Poo-3m-RPU"/>
+                            <outlet property="delegate" destination="wDK-bw-hgv" id="ISv-dj-ej2"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="攻略" id="o3b-8h-fJa"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ytE-i5-jgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2677.5999999999999" y="923.38830584707648"/>
         </scene>
         <!--好站-->
         <scene sceneID="KJy-Pb-NgL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rFr-A0-la0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="好站" id="tnv-jT-Ehi"/>
+                    <tabBarItem key="tabBarItem" title="好站" image="text-list-7" selectedImage="text-list-7" id="tnv-jT-Ehi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YGG-6h-OmM">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -410,12 +636,386 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="oC3-EX-vyU" kind="relationship" relationship="rootViewController" id="DrH-5C-TT6"/>
+                        <segue destination="TMY-e7-86n" kind="relationship" relationship="rootViewController" id="yIE-bN-WGs"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9HA-LA-o5m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2136" y="846.47676161919048"/>
+            <point key="canvasLocation" x="3386" y="922"/>
+        </scene>
+        <!--好站-->
+        <scene sceneID="wqX-4a-aUF">
+            <objects>
+                <tableViewController id="TMY-e7-86n" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YPc-eI-FI8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="eDD-SR-kcE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="LO4-4Z-ctj">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LO4-4Z-ctj" id="Rhc-PC-LwE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="PTT [AOE版]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DGL-N6-OkG">
+                                                    <rect key="frame" x="23" y="6" width="123" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="79" id="cIQ-fU-BMH">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="79"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cIQ-fU-BMH" id="wff-i2-dqq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="78.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="雲大-Twitch " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pcH-K6-ZHl">
+                                                    <rect key="frame" x="23" y="6" width="266" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text=" http://twitch.tv/gktcloud" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pgs-Zn-FOa">
+                                                    <rect key="frame" x="23" y="38" width="238" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="79" id="Wrw-gg-M3i">
+                                        <rect key="frame" x="0.0" y="123" width="375" height="79"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wrw-gg-M3i" id="CCO-NV-1NP">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="78.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="cheap-Youtube" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="La6-kO-b74">
+                                                    <rect key="frame" x="23" y="6" width="266" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="https://www.youtube.com/user/netss7" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-RD-iSY">
+                                                    <rect key="frame" x="23" y="38" width="249" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="RGA-cY-ZeV">
+                                        <rect key="frame" x="0.0" y="202" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RGA-cY-ZeV" id="aoR-u8-ONY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="TMY-e7-86n" id="ue9-fP-lb3"/>
+                            <outlet property="delegate" destination="TMY-e7-86n" id="fur-St-oon"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="好站" id="0KZ-0Z-POw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJ5-fB-i54" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4120.8000000000002" y="919.79010494752629"/>
+        </scene>
+        <!--僧侶的正確補血-->
+        <scene sceneID="0wq-ma-RYF">
+            <objects>
+                <viewController title="僧侶的正確補血" id="U3R-mM-Oe8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tvr-gx-ddB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LRh-oh-cst">
+                                <rect key="frame" x="16" y="64" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66006618399999994" green="0.71181866140000005" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">新中手在運用monk替受傷的部隊治療時，可能會習慣將整個部隊拉到monk前讓他休養生息直到老頭不再補血為止。毫無疑問，體恤軍民慎戰養兵是充實國力的好習慣，但事實上不正確的補血方法不僅會讓本來已經焦頭爛額的對手得到了喘息的機會，更有可能使自己的同盟因為你錯誤的治療導致一段時間的軍事劣勢。                        
+                                                                                
+比較現實的情況是，一隊受損的軍馬之中(弓兵系由於具有集火特性，所以不建議採用) ，一定是有幾隻性命垂危，幾隻身強體壯，幾隻仍可堪用，這時候如果把整支部隊回撤到家園，就等於是閑置了其餘那些英勇的駿馬。在這裡我要提到一點…過多的閒置部隊如同過多的閒置村民都會可能是你屢戰屢敗的致命愚蠢！後者讓你無法有充足的資源來培訓兵強馬壯的精銳部隊，前者則是你消耗了資源卻讓部隊閒置，雖然世紀的部隊不吃軍糧，但妳消耗資源的同時，如果不能把這些轉換成給於對手的打擊，無疑      
+是一項愚蠢的浪費！                                                              
+ 所以當今天我們帥氣的騎士以雷霆之姿和對手交手三百回合之後，身為英明有為的主帥你，意圖命令軍中的老弱後撤休養生息時，該做出怎樣最有效率的指令操作。當然，你可以優雅的命令軍團散開，在皓整以暇的慢慢一隻一隻挑出垂危旦夕的小馬並點      
+回家園。但現實裡跟你交戰的並不是中級電腦，而是四個具備野心勃勃意圖染指你小菊花的豺狼玩家，戰場上妳使出這種媲美電腦的細微操作，無疑是開門緝盜，只會讓那四家豺狼暗自竊笑你的愚昧，與其這樣到還不如把垂死的戰馬送往對手的資源地，      
+反正砍死一個回本，砍死一雙有賺。                                                
+                                                                                
+所以較為正確的做法應該是，點選你戰馬的其中一隻，然後迅速的點兩下，這樣會快速的圈取全部的同性質兵種。相對於傳統的滑鼠拖曳全螢幕，在用shift過濾同性質兵種，這種方法顯然的較為簡易省時，更何況拖曳全螢幕就只能抓那個螢幕的兵，連點兩下卻可以把螢幕之外的漏網之魚一併一網打進，這招在後期帝王陣地戰更是必備      
+的技巧之一。                                                                    
+                                                                                
+現在我們點選出馬匹之後，該怎麼用電腦選土豆過濾出垂危的戰士呢。一隊馬匹點選      
+之後，在螢幕的下方是可以看到的每隻騎士的血量，這時候我們得好好善用ctrl鍵， 按住ctrl鑑後再把滑鼠單點到那些體弱病衰的戰馬，這樣他們就會被剔除於遠征的軍團之外，而暫時的回家養病順便守家衛國。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30346650539999998" green="0.48679628670000002" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ZUN-wc-3l3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Afn-E4-q4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1729" y="1833"/>
+        </scene>
+        <!--韓國篇-->
+        <scene sceneID="S3g-0G-XmL">
+            <objects>
+                <viewController title="韓國篇" id="Ohj-S7-Ke3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BO7-E7-aII">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pjf-Qy-o2y">
+                                <rect key="frame" x="16" y="64" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66006618399999994" green="0.71181866140000005" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">作者：冬風                                                                      
+                                                                                
+韓國篇                                                                          
+                                                                                
+黑暗的起步：                                                                    
+                                                                                
+嗯～可以的話，把黑暗挖石列入，這點考量是因為韓國有最強的箭塔，而且韓的特殊兵韓  
+馬車粉好用．除此以外，韓國的挖石快１５％．顯示這民族在封建塔攻別人，或者是城堡  
+時快速建城堡都比其它國家有利．不過～如果你及早挖石就代表你打算忽略了這項利益．                                           
+                                                                                                                                     
+封建時代：                                                                      
+                                                                                
+　在快攻上，有利的是韓國挖石快１５％以及人民視野加２．不過，個人意見上．這項利益在防封比封快別人管用．人民能及早發現別人兵過來打你，多餘的石          
+頭也可快速建塔在資源區守護．如果要說到攻擊別人，是比不過快攻國的．頂多算是二線的封快國．  城堡時代：                                                                      
+                                                                                
+　韓在城堡時期優先建城堡是粉常見的策略，嗯～韓馬車粉好用．除此外在海戰上龜甲船可稱的上海上條武．是粉貴沒錯．２００木２００金．但沒有天敵．對所有的船都可一對二還會嬴，除此以外對於別人的港邊建築物也有強大的破壞力，感覺上就像無最短射程的短程的西火炮戰船．加上他有附裝甲．別人打算拿火戰船反制只會死的比弩炮船更慘而以．                                              
+                                                                                
+　除了兩項特殊兵外，韓的投石器也可考慮生產．比別人更多一的射程代表是好用．可拿來Ｋ別人的市鎮中心，以及遠程兵，由其在投石對Ｋ上加一射程好用不          
+少．呵～怕騎士．如果以投石為主生重槍兵為週邊防御是必須的．                      
+                                                                                
+　如果不蓋城堡來說，韓的城堡箭塔可以拿來考量，由於韓塔的自動升級而且射程加１，使得韓在城堡時期擁有最強箭塔．適度配合著兵做推進可收到蠻大的效          
+果．  帝初：                                                                          
+                                                                                
+　城堡夠多就馬車海吧，別升級精銳了．反正升級也只是加血．不過本身血150就蠻多的了．不如就升攻防以及化學．一堆超強的馬車就出現了．除了本身強悍外這兵種對於建築物有相當多的加程．外加上本身防箭高．所以絕對算是帝初強悍兵種．不過～對別人戟兵海別硬拚了．他加成粉兇的．                                
+                                                                                
+　火槍加投石也可拿來考量，升個中投和化學就可用了．如果別人還在城堡這打法會產生相當大的威脅性除此以外，火炮塔推也絕對可以拿來考量，僅要化學就有火炮塔，在研發成本這項科技上還超越了免化學火藥系減半的土耳其，以及科技便宜的中國．外加上韓的挖石快．一下子火炮塔海就會變出來了．  帝中：                                                                          
+                                                                                
+　仔細研究韓的科技樹會發覺．肉摶系偏弱．和拜一樣缺少鼓風爐科技使得肉摶系遠不如人．但～遠兵系和攻城系都強．強悍的韓馬車，以及火槍．攻程系的超          
+距投石．配上防馬兒用的戟兵．這些兵種就沒啥弱點了．                              
+                                                                                
+　如果在配上有弓兵系駐守的大型箭塔或者火炮塔為推進的話．以攻擊方面而言稱的上是ＮＯ１的種族．不過～兵種組合蠻偏重於弓兵系的，在面對哥德的厚盾          
+兵會有點頭痛．除此以外，有波同盟的遊俠海，多２的攻擊力也會對馬車海造成不小的傷害．嗯～還有飛鷹也麻煩．對這些兵種肉摶系不足可能會造成大傷害．          
+                                                                                
+總結：                                                                          
+                                                                                
+　韓國啊，多少人批評他太強了．甚至有時玩時會聽到禁韓的聲音．沒錯！會用真的粉強．不過如果會用每一族也都強．真的要定韓的屬性，應該是塔與弓兵系的民族．  韓國的箭塔頗有特色，自動升級．而且城堡和帝王都有再加射程．如果配上升城跺和裡面駐火槍兵應該是蠻強的．不過主要好像是城堡就該用了．帝王炮塔雖          
+然射程較短．但～對兵比大型箭塔大多了．帝王箭塔好像不是粉實用． </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30346650539999998" green="0.48679628670000002" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="LsY-yk-bHB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OfC-6H-3Vb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2409" y="1834"/>
+        </scene>
+        <!--日本篇-->
+        <scene sceneID="5b3-AR-d6C">
+            <objects>
+                <viewController title="日本篇" id="2mI-7c-X75" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c6l-Vs-eUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2pQ-Qm-2kk">
+                                <rect key="frame" x="16" y="64" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66006618399999994" green="0.71181866140000005" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">作者：冬風                                                                      
+                                                                                
+日本篇                                                                          
+                                                                                
+黑暗的起步                                                                      
+                                                                                
+　有海的話，強烈推薦補魚．從初期收集站減半的加成，使日本能更快速建港口．到魚船的加成，後期魚船補魚速度不輸給別人科技全升的農田．以及別人用戰船攻擊日魚船２．５倍的耐擊性．日本補魚各種特性的完美組合絕非其它國家可及．                                                                            
+　在純陸地的起步，建議～玩日本在鹿旁邊建磨坊那是常識．以多重磨坊來更有效的收集陸地上的資源．甚至黑暗時到敵方家建磨坊殺鹿也是不錯的選擇，收集          
+資源然後繼續接下封快．                                                          
+                                                                                
+封建時期                                                                        
+                                                                                
+　快攻國，這點可以確定．由於初期收集站減半，日本可更有效的收集食物，另外對於快攻不可缺的石金，日本的礦場一樣減半，別說省下不多．有玩ＡＯＣ常識的人都知，初期資源的價值遠勝後期．或者如中國等因人民收集或者是蒙古打獵到封建資源會比日本多，但～沒日本早，這使得日本成為最穩的封快國．  城堡時期                                                                        
+                                                                                
+　如果沒海的話，那日本只能受到初期利益的照顧在城初會稍強．但城中以後會變的比別國還弱．所以制定早期的進攻是有利的．打法一般．                          
+  不過～有海也一樣，畢竟城初資源比別人多不少，不利用這優勢也適乎太可惜了，還是要早點進攻．                                                            
+                                                                                
+  補充:續建港口是重要的．由於日魚船的補魚快速．單以補自然魚類而言是不輸給人民種田的．如何在各處建魚港收光全地圖的魚．這是日本的課題．  帝初時期                                                                        
+                                                                                
+　帝初的日本還蠻強的，這是由於受到資源限制，帝初通常是以戟兵巨投，或者是劍兵做開場．而日本在這時期擁有強大的利益．以這為考量，日本玩家適乎可於棄城堡攻勢而轉向２５分前升帝打人．不過這作法有點投機，粉有押寶的味道          
+．參考看看吧．   結論：                                                                          
+                                                                                
+　日本是初期表現優異，城堡平平（有海城堡也強），而帝初強，帝後弱的種族．這民族對於補魚方面有特別優異的表現．海戰上也強，擁有全線的海上科技，          
+而魚船的耐打度甚至可衍伸成特別的魚船肉盾戰法（有魚船時戰船這些東東都會優先攻擊魚船，而日魚船又特別耐打．而且只耗木，和日本玩海戰不能正視這事          
+實將會兵力有人三倍也被人消滅的惡運，呵～我做過．）                                                                  
+                                                                                
+帝中以後                                                                        
+                                                                                
+　戟兵弩炮巨投，算是日本常見的打法．步兵海也不錯，基本上雖然缺乏騎兵，但日本在步弓和攻城器方面，兵種堪稱完整．不過～並不適合將決戰時間拉過久          
+的種族．這點是由於在資源收集上，日本僅有伐木的最後科技，而無其它科技，這點可以想見．日本到後期資源上一定遜於其它各國．這點就算有海也一樣，必          
+竟魚場也是會耗完的資源．而建魚網收集的速度卻遠差於人民．                        
+                                                                                
+討論特殊科技：                                                                  
+                                                                                
+　特殊科技其實粉好用，大大增強日巨投的坼裝和發射速度．可以的話，有錢就升．       結論：                                                                          
+                                                                                
+　日本是初期表現優異，城堡平平（有海城堡也強），而帝初強，帝後弱的種族．這民族對於補魚方面有特別優異的表現．海戰上也強，擁有全線的海上科技，而魚船的耐打度甚至可衍伸成特別的魚船肉盾戰法（有魚船時戰船這些東東都會優先攻擊魚船，而日魚船又特別耐打．而且只耗木，和日本玩海戰不能正視這事實將會兵力有人三倍也被人消滅的惡運，呵～我做過．）</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30346650539999998" green="0.48679628670000002" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="j41-ez-ivB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8N-P1-vjH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3046" y="1833"/>
+        </scene>
+        <!--阿茲特克-->
+        <scene sceneID="0WJ-6d-1LL">
+            <objects>
+                <viewController title="阿茲特克" id="BKE-Zp-4wI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o8G-yb-Rfv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rvs-vT-zE6">
+                                <rect key="frame" x="16" y="64" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66006618399999994" green="0.71181866140000005" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">作者：冬風                                                                      
+                                                                                
+阿茲提克篇                                                                      
+                                                                                
+黑暗的起步:                                                                     
+                                                                                
+阿茲的初期經濟利益是，村民攜帶量加５．能有效應用到的有採果，伐木，挖金石皆可．不過並不是那麼明顯，由其黑暗採食偏重於肉類．這點阿茲的加成幾乎          
+沒多大效用．基本上升級法一般，黑暗也沒啥特殊的戰法．到是飛鷹的搜索利益不錯．可更有效的利用自然資源．                                                  
+                                                                                
+                                                                            
+封建時期：                                                                      
+                                                                                
+也不是不能封快啦，畢竟攜帶量加５，以及軍隊生產速度快１５％都有一定的利益．封快別人也是可行的做法．不過～升級輪子會使阿茲的加成繼續擴大．影響所及，城堡時經濟會更優於其它民族，這兩者如何取捨要看個人了．  城堡時期：                                                                      
+                                                                                
+有飛鷹的民族皆適合超城快，這是因為在封建時期能剋飛鷹的只有裝甲步兵，這東東通常別人是不生的．而且飛鷹和輕騎比較起來基本上就少１０資源．而且偏          
+金，超城最缺的是肉．如果加上阿茲的生兵快１５％就更容易出來了不過～飛鷹在城堡的最大敵人始終是騎士．如果爆的夠多騎士是可以硬幹的．            
+反正還加成２，如果數量差太多騎士是打不嬴的．鬧完趕快做僧侶收別人騎士也是可行的打法．值得注意的是飛鷹不是攻城器．在Ｋ市鎮中心方面還不如升血統          
+後的輕騎．如果要抄掉別人家生衝車是必需品．                                      
+                                                                                
+阿茲僧快可以考量，阿茲的僧侶每升一科技加５的血．就算僅升基本的加血和速度．就有比別國僧侶多１０的血．如果再升個讀罪思想．還可以召建築物外又多          
+加５血．不論別人叫啥兵過來通召，算是一種粉強悍的打法．不過～操縱上並不太好控．外加上要搶城．用僧快十六城都嫌太慢了（以僧快高手而言十四城是正          
+常速度）．絕對需要一定程度以上實力才能操控的技法．  帝初：                                                                          
+                                                                                
+重槍兵海，別考慮就速他．升了花冠後的阿茲重槍基本上就和完全升完城堡科技的長劍兵同等級．加上省了升戟兵的費用而重槍便宜，拿來當帝初的主力兵種最好不過了．順便能省省金子來升級帝中所需的兵種科技，如果戰況順考慮檢聖器以及做貿易．不過～要注意的是別太依賴重槍了，這對高手玩家而言只是過渡時期的兵種．如果到了帝中你還沒升級其它科技慘死的機會不小．                        
+                                                                                
+帝中：                                                                          
+                                                                                
+首先升級的是飛鷹，如果帝初被你的變態重槍欺負，做遠兵類反制你是必然的做法．這時飛鷹跳出來撐場面就粉重要了．不過～飛鷹金子吃的兇，如果之前沒做          
+好足夠的貿易車或搶到足夠的聖器，會越打越乏力．這點是值得注意的．另一個要快點升的是劍兵，阿茲加花冠的劍兵和日劍同等級，出來的話對手沒有效反制會瞬間被抄，在其次投石和攻城師，這也是為了有效反制遠兵類．豹勇可以考慮，如果對手步兵組合太多時就儘量產吧（像日本和維京，哥德）．不過有時我會忽略豹勇，畢竟是城堡兵量產不易．而且粉多時候靠著劍勇飛鷹就足以撐起場面了．  總結：                                                                          
+                                                                                
+某一方面阿茲有點像哥德，都是帝王才發揮真正實力的國家．不過～探討起來阿茲初期並不弱．在經濟上比初期的哥德好不少．尤期城堡期升了手推車後更是強          
+到不行了．不過帝王到是和哥德粉相似，以肉摶系來應付所有兵種飛鷹打遠兵類，超強重槍Ｋ馬兒．劍勇為主力．豹勇來對付同屬步兵國的人．除此以外，阿茲的攻城器缺遠兵類的重弩炮，不過對於投石和衝車皆可升到的．          
+偶而應用也可發揮一定的效果．在經濟上而言，阿茲在帝王號稱Ｎo.1                   
+的國家．話雖如此，要全研發還速粉吃力（金子耗太兇了）．幸運的是有重槍這可以在帝初撐場面的兵種．利用這個空檔如何多撈一些金子是重點，也是阿茲到          
+帝中後能否強到不行的關鍵．                                                      
+                                                                            
+補述：                                                                          
+                                                                                
+其實，我吃過阿茲重槍不少大虧．每次到帝初我手中有戟兵，看到別人只有重槍就毫不猶豫揮軍前進想以戟兵欺負重槍穩嬴，到頭來被消滅的都是我的匈奴戟兵，回頭一看啊！原來是阿茲才想做遠兵類剋他就來不及了．下次大家請注意，看到別人重槍想Ｋ時先看一下他是啥種族．這虧我至少吃了三四次，恨啊．</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30346650539999998" green="0.48679628670000002" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="lKT-Ja-cq0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jKm-wZ-yop" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3665" y="1833"/>
+        </scene>
+        <!--條頓-->
+        <scene sceneID="iXs-ce-frc">
+            <objects>
+                <viewController title="條頓" id="2rV-Ec-Kyu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X9L-AP-Py0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ddb-yR-lhK">
+                                <rect key="frame" x="16" y="64" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66006618399999994" green="0.71181866140000005" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">作者：冬風                                                                      
+                                                                                
+條頓篇                                                                          
+                                                                                
+　在ＡＯＫ時代，條頓是排名第一位的超強國．人們甚至恐懼他的實力而禁用著．強悍的市鎮中心射程和威力使得條頓在防守上固若金湯，想打下條頓得付出數倍於其它國的代價，更可怕的是這也同時是一把利劍．拿條頓的市鎮中心當武器憑著超長的射程．敵人就只有哭．但～一切都是過去了，隨著市鎮中心的優勢被取消，條頓第一強國的稱號也被剝奪了，不過～也只是由第一強國改成第一強國候補罷了．從任何角度來看，條頓還是ＡＯＣ的超強國，只是遠不及ＡＯＫ時可怕罷了．                                                                                                                               
+                                                                                
+黑暗的起步                                                                      
+                                                                                
+　由於市鎮中心超長的視距（一開始可看到羊和果樹），以及農田僅需４０木．這使得條頓成為最容易上手的國家．甚至能以種田法這穩健的東東和以些初期有利益的國家們並駕其驅．如果有著中國同盟，別考慮～黑暗就可種大量的田，但～沒中國同盟就算了，一些打獵技巧有利無害（參考ＡＯＫ的打獵升級法）．  封建時期                                                                        
+                                                                                
+　條的農田利益在初期種田和別國比較起來能省下不少木，但～既然種許多田還能封快嗎？不論是弓箭場，或者是小弓手．甚至箭塔都需要木材．這些顯示了條頓並非封建強國．或者適度的封攻可以，但～還是以儘速升城為佳．  城堡時期                                                                        
+                                                                                
+　農田利益在此時會大大有用，這使得條頓此時省下的木材比別國多上不可計數，就算是賽爾特的伐木利益省下來的木頭都沒有條頓多．不過由於市鎮中心的減弱，條子在ＡＯＫ的主流戰法主推此時就不太適用了．那要用什麼呢？答案是～塔推．呵～這不是封建的戰術嗎？但！條頓有免費城跺．外加上箭塔可以裝十人．外加上箭塔威力高於市鎮中心，十人的箭塔威力凌駕在十五人的市鎮中心之上，而且可以升射程．在在顯示條頓的城堡箭塔強悍非凡．想想看吧，對手叫十人來強蓋箭塔．剎那間蓋好而且十人就進去了，你要怎麼打．在第一波十七分過來時大家大概都沒有攻城器具製造所這 東東．想拿騎士硬抄我保證你慘死．這時蓋個攻城器配合著幾台衝                      
+車市鎮中心一下子就會被幹掉了．（人民或兵想坼有十人箭塔箭雨掩戶會產生相當的損失），不過由於叫人十人去蓋箭塔，這對中後期的經濟有著相當大的影響，算是兩面劍．                                          
+                                                                                
+　蓋城堡的戰術，這戰術也在於城初．想辨法在敵方附近偷蓋一座 城堡．以條武和槍兵衝車為主軸來滅人．條武可說在城堡時期最強悍的兵種，高生命值高攻擊力高防御力．只是沒機動力而以．別說重槍兵，就算法騎士都幹不嬴他．如果配上相當數量的槍兵，這代表對方就只能靠建築物掩互苦苦作戰了，正面對決絕不是你對手．                       
+不過～和之前打法比較，這東東會比較慢出現，別人不和你硬幹直接抄你家形成兩敗俱傷的格局機會高．  這兩種戰法都有相同的特點，嗯～石頭粉重要要早點挖．如何在                      
+初期多挖石是玩條頓者最大的課題．                                                
+                                                                                                                                                          
+帝王初期                                                                        
+                                                                                
+　由於條頓的農田利益實在太好用了，這時省下的資源非常的可觀，外加上條頓的兵種豐富．所以並沒有所謂固定的打法．但～如果城堡夠多建議以條武當主流兵種．趁著帝初大家還沒有大量的遠程兵可剋你，靠著肉摶戰無敵的優勢可快速的清掉別人．不然劍兵海也是不錯的作法，和條頓的農田利益算是相輔相成．  帝中以後                                                                        
+                                                                                
+　別太迷信肉摶戰部隊，這是我對條頓使用者的一點建議．帝中後大量遠兵系部隊的成型，在繼續只使用肉摶戰打法遇到高手慘死的機會就高了．那麼要用什麼呢？能用的東東多了，條頓擁有除了挖金最後一級的科技外的全線經濟科技，外加上農田省下的木材，後期經濟算是相當不錯的國家．兵種上雖然弓兵系弱．但～弩炮這東東可彌補這弱點．重弩炮，火槍，遊俠，火炮塔都可考慮使用的東東．而步兵系完整外加上木材實在太多了．垃圾兵也可大量使用（ 輕騎除外，條子只有斥候可用）．一切的選擇只能靠你隨機應變了．                    
+                                                                                
+討論特殊科技:                                                                   
+                                                                                
+　條的特殊科技影響是城堡加射程三，以及步兵駐守能增加箭的威力．如果要配合上這技術必需使用的技巧就是城推術．不過不是說那麼實用．那是因為石頭不足，以及推動緩慢．注定他不是攻擊型科技．但～升一升拿來守自家插城堡會有一定的影響．  結論：                                                                          
+                                                                                
+　條頓是強國，不過由於市鎮中心的優勢取消．所以對於封快的防御上遠不如以往了．如何平順的升到城堡時期是一個課題．只要到 城堡～條頓就是足以列名三強內的超強國．不論在資源上，兵種多樣性，特殊兵的強悍都沒有話說．但～玩條者還是必需好好重視封建時的攻防，這也是玩條者最大的課題</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30346650539999998" green="0.48679628670000002" blue="0.76229378169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Utb-eF-RbU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4dS-zd-WYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4326" y="1833"/>
         </scene>
     </scenes>
     <resources>
@@ -424,5 +1024,9 @@
         <image name="3_The Forgotten" width="1200" height="675"/>
         <image name="4_age-african-kingdoms" width="1200" height="675"/>
         <image name="5.Rise of the Rajas" width="1024" height="576"/>
+        <image name="animal-element-7" width="30" height="30"/>
+        <image name="layer-7" width="30" height="30"/>
+        <image name="lifebuoy-7" width="30" height="30"/>
+        <image name="text-list-7" width="30" height="30"/>
     </resources>
 </document>
