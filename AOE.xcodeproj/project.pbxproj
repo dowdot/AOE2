@@ -10,10 +10,10 @@
 		DDAA8ED31FE4B8D500BAEEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA8ED21FE4B8D500BAEEEE /* AppDelegate.swift */; };
 		DDAA8ED51FE4B8D500BAEEEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA8ED41FE4B8D500BAEEEE /* ViewController.swift */; };
 		DDAA8ED81FE4B8D500BAEEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAA8ED61FE4B8D500BAEEEE /* Main.storyboard */; };
-		DDAA8EDA1FE4B8D500BAEEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAA8ED91FE4B8D500BAEEEE /* Assets.xcassets */; };
 		DDAA8EDD1FE4B8D500BAEEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAA8EDB1FE4B8D500BAEEEE /* LaunchScreen.storyboard */; };
 		DDAA8EE81FE4B8D500BAEEEE /* AOETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA8EE71FE4B8D500BAEEEE /* AOETests.swift */; };
 		DDAA8EF31FE4B8D500BAEEEE /* AOEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA8EF21FE4B8D500BAEEEE /* AOEUITests.swift */; };
+		DDAA8F011FE4CD7200BAEEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAA8F001FE4CD7200BAEEEE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		DDAA8ED21FE4B8D500BAEEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDAA8ED41FE4B8D500BAEEEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDAA8ED71FE4B8D500BAEEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DDAA8ED91FE4B8D500BAEEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDAA8EDC1FE4B8D500BAEEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDAA8EDE1FE4B8D500BAEEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDAA8EE31FE4B8D500BAEEEE /* AOETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		DDAA8EEE1FE4B8D500BAEEEE /* AOEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAA8EF21FE4B8D500BAEEEE /* AOEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOEUITests.swift; sourceTree = "<group>"; };
 		DDAA8EF41FE4B8D500BAEEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAA8F001FE4CD7200BAEEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 				DDAA8ED21FE4B8D500BAEEEE /* AppDelegate.swift */,
 				DDAA8ED41FE4B8D500BAEEEE /* ViewController.swift */,
 				DDAA8ED61FE4B8D500BAEEEE /* Main.storyboard */,
-				DDAA8ED91FE4B8D500BAEEEE /* Assets.xcassets */,
 				DDAA8EDB1FE4B8D500BAEEEE /* LaunchScreen.storyboard */,
+				DDAA8F001FE4CD7200BAEEEE /* Assets.xcassets */,
 				DDAA8EDE1FE4B8D500BAEEEE /* Info.plist */,
 			);
 			path = AOE;
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDAA8EDD1FE4B8D500BAEEEE /* LaunchScreen.storyboard in Resources */,
-				DDAA8EDA1FE4B8D500BAEEEE /* Assets.xcassets in Resources */,
+				DDAA8F011FE4CD7200BAEEEE /* Assets.xcassets in Resources */,
 				DDAA8ED81FE4B8D500BAEEEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RG736LV9R;
 				INFOPLIST_FILE = AOE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.dowdot.AOE;
@@ -441,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RG736LV9R;
 				INFOPLIST_FILE = AOE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.dowdot.AOE;
